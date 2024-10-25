@@ -23,12 +23,12 @@ public class Main {
         //when reference of a subclass obj assigned to a super class obj variable,
         //u only have the access to only those part of the obj that are defined in super class
 
-        BoxWeight box6 = new Box(2, 4, 5);
-        System.out.println(box6);
+//        BoxWeight box6 = new Box(2, 4, 5);
+//        System.out.println(box6);
         //there are many variables in both parent and child classes.
         //you are given access to variables that are in the ref i.e. BoxWeight
         //hence, you should have access to weight variable.
-        //this also means, that the ones you are trying tyo access should be initialised.
+        //this also means, that the ones you are trying to access should be initialised.
         //but here, when the obj itself is of type parent class, how will you call the constructor of child class
         //parent class has no idea about weight
         //You can't have a child reference variable and a parent obj
