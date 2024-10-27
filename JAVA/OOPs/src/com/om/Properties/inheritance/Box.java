@@ -12,6 +12,10 @@ public class Box {
     }
     // cube
 
+    static void greeting() {
+        System.out.println("I'm in Box class");
+    }
+
     Box ( double side) {
 
         // super();//Object class
