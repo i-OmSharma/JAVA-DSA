@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-//        Box box1 = new Box(2);
+        Box box1 = new Box(2);
 //        Box box = new Box(box1);
 //
 //        BoxWeight box3 = new BoxWeight();
@@ -12,8 +12,8 @@ public class Main {
 //        System.out.println(box1.weight+box3.h + " " + box3.weight );  if the obj is directly created of parent then
 //        it will not be able to access the child props
 
-        Box box5 = new BoxWeight(2, 4, 5, 23);
-        System.out.println(box5.w);
+//        Box box5 = new BoxWeight(2, 4, 5, 23);
+//        System.out.println(box5.w);
         //System.out.println(box5.weight);
         // it's actually the type of reference variable the type of obj,
         // that determine what member can be accessed,
@@ -32,5 +32,14 @@ public class Main {
         //but here, when the obj itself is of type parent class, how will you call the constructor of child class
         //parent class has no idea about weight
         //You can't have a child reference variable and a parent obj
+
+
+
+        BoxPrize box = new BoxPrize(2,4,6);
+
+        BoxWeight box9 = new BoxWeight();
+        BoxWeight.greeting(); // u can inherit but can't override
+        box1.greeting();
+
     }
 }
