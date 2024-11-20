@@ -6,7 +6,7 @@ public class Main {
         //1. Access the data Members
         //2. Modify the data members.
 
-        System.out.println(obj.getNum());
+        System.out.println(obj.getNum()); 
 
         obj.setNum(12);
 
