@@ -29,8 +29,6 @@ public class ObjectDemo {
         return super.equals(obj);
     }
 
-
-
     public ObjectDemo() {
         super();
     }
@@ -43,5 +41,7 @@ public class ObjectDemo {
     public static void main(String[] args) {
         ObjectDemo obj = new ObjectDemo(12);
         System.out.println(obj.hashCode());
+
+        System.out.println(obj.getClass());
     }
 }
