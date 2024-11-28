@@ -1,7 +1,7 @@
 package com.om.accessDemo;
 
 public class son extends parent {
-
+//Contructor
     public son(int age) {
         this.age = age;
     }
