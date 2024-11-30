@@ -1,10 +1,11 @@
-package com.om.accessDemo;
+package com. om.abstractDemo;
 
 public class son extends parent {
 //Contructor
     public son(int age) {
-        this.age = age;
+        super(age);
     }
+
 
     @Override
     void career(String name) {

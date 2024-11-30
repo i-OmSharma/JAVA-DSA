@@ -1,4 +1,4 @@
-package com.om.accessDemo;
+package com.om.abstractDemo;
 
 public class Main {
     public static void main(String[] args) {
@@ -6,6 +6,10 @@ public class Main {
 
         Son.career("IAS");
         Son.partner("Alice", 25);
+
+        parent.hello();
+
+        Son.normal();
 
     }
 }
