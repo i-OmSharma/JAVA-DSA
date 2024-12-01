@@ -4,7 +4,7 @@ public abstract class parent {
 
     int age;
     
-    final int VALUE;//can't use it to call directly to create an obj, it should be passed in another constructor.
+    final int VALUE; //can't use it to call directly to create an obj, it should be passed in another constructor.
     public parent(int age) {
         this.age = age;
         VALUE = 239773;
