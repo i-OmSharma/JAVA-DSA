@@ -1,6 +1,7 @@
 package com. om.abstractDemo;
 
 public class son extends parent {
+    
 //Constructor
     public son(int age) {
         super(age);
