@@ -13,3 +13,5 @@ public class Main {
 }
 
 //what variable it has access depends on the ref variable.
+//Annotation is also a interface
+//@Override --> interface.
