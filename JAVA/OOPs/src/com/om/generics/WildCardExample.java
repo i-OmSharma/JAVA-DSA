@@ -20,6 +20,8 @@ public class WildCardExample<T extends Number> { //here u can add Number or subc
 //        // here you can only pass Number type
 //    }
 
+
+
     public void getList(List<? extends Number> list){
         // do something
 
@@ -84,3 +86,11 @@ public class WildCardExample<T extends Number> { //here u can add Number or subc
 
     }
 }
+
+//here u can pass anytime anything u want
+//public void getList(List<?> list) {
+//    // Do something with the list
+//    for (Object obj : list) {
+//        System.out.println(obj);
+//    }
+//}
