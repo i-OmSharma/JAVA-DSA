@@ -15,3 +15,5 @@ public class CaseCheck {
         }
     }
 }
+
+//trim used for remove extra space
